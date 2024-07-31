@@ -17,6 +17,6 @@ public class MathAPI {
         // Logarithmic operations
         System.out.println("Natural log of a: " + Math.log(a));
         System.out.println("Base 10 log of a: " + Math.log10(a));
-    }
+    }                                        
 
 }
