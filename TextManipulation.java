@@ -20,15 +20,15 @@ public class TextManipulation {
         System.out.println(sb.toString()); // Output: Java is awesome
 
         // Inserting text at a specific position
-        sb.insert(5, " programming");
+        sb.insert(5, "programming ");
         System.out.println(sb.toString()); // Output: Java programming is awesome
 
-        // Replacing text
-        sb.replace(5, 16, " code"); // Replace "programming" with "code"
+        // // Replacing text
+        sb.replace(5, 17, " code "); // Replace "programming" with "code"
         System.out.println(sb.toString()); // Output: Java code is awesome
 
-        // Deleting text
-        sb.delete(9, 12); // Delete "code"
+        // // Deleting text
+        sb.delete(5, 10); // Delete "code"
         System.out.println(sb.toString()); // Output: Java is awesome
 
         /**
